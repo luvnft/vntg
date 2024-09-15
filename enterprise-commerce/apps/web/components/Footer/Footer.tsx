@@ -40,7 +40,7 @@ export function Footer() {
           </p>
         </main>
         <footer className="mt-auto flex flex-col items-center justify-between pb-8 text-neutral-300 md:flex-row">
-          <span className="text-sm">2024 © Lorem Ipsum. All Rights Reserved.</span>
+          <span className="text-sm">2024 © Arvrtise Vintage. All Rights Reserved.</span>
           <div className="mt-4 flex space-x-4 md:mt-0">
             <Link prefetch={false} className="text-sm hover:underline" href="/privacy-policy">
               Privacy and Cookie Policy
