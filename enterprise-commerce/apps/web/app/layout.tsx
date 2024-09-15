@@ -61,6 +61,13 @@ const navigationItems: NavItem[] = [
             { text: "Footwear", href: "/category/footwear" },
           ],
         },
+        {
+          text: "Home",
+          href: "/category/home",
+          items: [
+            { text: "Accessories", href: "/category/accessories" },
+          ],
+        },
       ],
     },
   },
@@ -74,29 +81,18 @@ const navigationItems: NavItem[] = [
           text: "Audio Devices",
           href: "/category/audio-devices",
           items: [
-            { text: "Headphones", href: "/category/headphones" },
-            { text: "Speakers", href: "/category/speakers" },
+            { text: "Headphones", href: "/category/records" },
+            { text: "Speakers", href: "/category/cds" },
+            { text: "Speakers", href: "/category/dvds" },
           ],
         },
         {
-          text: "Cameras",
-          href: "/category/cameras",
+          text: "Games",
+          href: "/category/games",
           items: [
-            { text: "Digital Cameras", href: "/category/digital-cameras" },
-            { text: "Action Cameras", href: "/category/action-cameras" },
+            { text: "Digital Cameras", href: "/category/retro-games" },
+            { text: "Action Cameras", href: "/category/video-games" },
           ],
-        },
-        {
-          text: "Smartphones",
-          href: "/category/smartphones",
-        },
-        {
-          text: "Laptops",
-          href: "/category/laptops",
-        },
-        {
-          text: "Screens",
-          href: "/category/screens",
         },
       ],
     },
