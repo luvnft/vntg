@@ -44,7 +44,7 @@ export const env = createEnv({
     MEILISEARCH_HOST: process.env.MEILISEARCH_HOST || "demo",
     OPENAI_API_KEY: process.env.OPENAI_API_KEY,
     MEILISEARCH_REVIEWS_INDEX: process.env.MEILISEARCH_REVIEWS_INDEX,
-    LIVE_URL: process.env.LIVE_URL || "https://commerce.blazity.com",
+    LIVE_URL: process.env.LIVE_URL || "https://vintage.arvrtise.com",
     ANALYZE: process.env.ANALYZE,
     IS_GTM_ENABLED: process.env.IS_GTM_ENABLED,
     IS_VERCEL_ANALYTICS_ENABLED: process.env.IS_VERCEL_ANALYTICS_ENABLED || "true",
