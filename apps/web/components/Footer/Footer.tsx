@@ -5,7 +5,27 @@ export function Footer() {
     <div className="bg-black text-white">
       <div className="max-w-container-md mx-auto flex w-full flex-col justify-between px-4 xl:px-0">
         <header className="flex justify-end gap-4 pt-8">
-  
+          <a rel="noreferrer" target="_blank" href={"https://www.facebook.com/blazity/"} aria-label="Facebook link">
+            <FacebookIcon className="text-white" />
+          </a>
+
+          <a rel="noreferrer" target="_blank" href={"https://twitter.com/blazity"} aria-label="Twitter link">
+            <TwitterIcon className="text-white" />
+          </a>
+
+          <a rel="noreferrer" target="_blank" href={"https://www.instagram.com/blazitysoftware/"} aria-label="Instagram link">
+            <InstagramIcon className="text-white" />
+          </a>
+
+          <a rel="noreferrer" target="_blank" href={"https://www.linkedin.com/company/blazity"} aria-label="Linkedin link">
+            <LinkedinIcon className="text-white" />
+          </a>
+
+          <a rel="noreferrer" target="_blank" href={"https://www.youtube.com/channel/UCYDeWaSWiOHn_lUHY-u1VYw/videos"} aria-label="Youtube link">
+            <YoutubeIcon className="text-white" />
+          </a>
+
+          {/* Add TikTok link here */}
           <a rel="noreferrer" target="_blank" href={"https://www.tiktok.com/@avintag3"} aria-label="TikTok link">
             <TikTokIcon className="text-white" />
           </a>
@@ -19,7 +39,7 @@ export function Footer() {
           <p className="text-3xl font-bold">Sell your vintage merch </p>
           <p className="mt-1 text-xl">
             <a className="p-1 underline" href="mailto:vintage@arvrtise.com">
-            Contact us
+              Contact us
             </a>
             today to sell it today.
           </p>
@@ -136,6 +156,26 @@ function YoutubeIcon(props) {
     >
       <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17" />
       <path d="m10 15 5-3-5-3z" />
+    </svg>
+  )
+}
+
+function TikTokIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="M12.18 2a4.98 4.98 0 0 1 5 5v6a5 5 0 1 1-5-5V4h0V2z" />
+      <path d="M15.23 3.77a6.55 6.55 0 0 0-6.55 6.55v6.1a6.55 6.55 0 1 0 6.55-6.55V6.55A6.55 6.55 0 0 0 15.23 3.77z" />
     </svg>
   )
 }
