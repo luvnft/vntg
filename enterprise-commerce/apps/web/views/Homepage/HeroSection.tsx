@@ -12,7 +12,7 @@ export function HeroSection({ title, className }: { title: string; className?: s
         <h1 className="text-center text-[32px]/[32px] tracking-tighter sm:text-[77px]/[79px] md:text-left">{title}</h1>
         <a href="https://git.new/commerce" rel="noreferrer" target="_blank">
           <Button size="xl" variant="secondary" className="py-[10px] text-[21px] md:py-[28px] md:text-[23px]">
-            See on GitHub
+            SHOP
           </Button>
         </a>
       </div>

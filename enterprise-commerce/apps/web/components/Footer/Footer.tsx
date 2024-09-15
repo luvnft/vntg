@@ -28,15 +28,15 @@ export function Footer() {
         <main className="py-32">
           <a href="https://v0.dev/" rel="noreferrer" target="_blank">
             <span className="focus:ring-ring mb-4 inline-flex w-fit items-center whitespace-nowrap rounded-full border border-transparent bg-white px-2.5 py-0.5 text-xs font-semibold text-black transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2">
-              Designed with v0
+              ARVRTISE VINTAGE
             </span>
           </a>
-          <p className="text-3xl font-bold">Missing feature? </p>
+          <p className="text-3xl font-bold">Got Vintage Merch?</p>
           <p className="mt-1 text-xl">
-            <a className="p-1 underline" href="mailto:contact@blazity.com">
+            <a className="p-1 underline" href="mailto:vintage@arvrtise.com">
               Let us know
             </a>
-            , we&apos;ll build it!
+            , we&apos;ll sell it for you!
           </p>
         </main>
         <footer className="mt-auto flex flex-col items-center justify-between pb-8 text-neutral-300 md:flex-row">
