@@ -15,8 +15,8 @@ export const dynamicParams = true
 
 export default function Homepage({ params: { bucket } }: { params: { bucket: string } }) {
   const heroTitles = {
-    a: "Your daily trendsetting deals",
-    b: "Spring into Savings! Up to 60% Off",
+    a: "Vintage Vibes Only",
+    b: "1-of-1 Finds. Handpicked. Worldwide Shipping.",
   }
 
   return (

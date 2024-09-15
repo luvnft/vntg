@@ -5,38 +5,23 @@ export function Footer() {
     <div className="bg-black text-white">
       <div className="max-w-container-md mx-auto flex w-full flex-col justify-between px-4 xl:px-0">
         <header className="flex justify-end gap-4 pt-8">
-          <a rel="noreferrer" target="_blank" href={"https://www.facebook.com/blazity/"} aria-label="Facebook link">
-            <FacebookIcon className="text-white" />
-          </a>
-
-          <a rel="noreferrer" target="_blank" href={"https://twitter.com/blazity"} aria-label="Twitter link">
-            <TwitterIcon className="text-white" />
-          </a>
-
-          <a rel="noreferrer" target="_blank" href={"https://www.instagram.com/blazitysoftware/"} aria-label="Instagram link">
-            <InstagramIcon className="text-white" />
-          </a>
-
-          <a rel="noreferrer" target="_blank" href={"https://www.linkedin.com/company/blazity"} aria-label="Linkedin link">
-            <LinkedinIcon className="text-white" />
-          </a>
-
-          <a rel="noreferrer" target="_blank" href={"https://www.youtube.com/channel/UCYDeWaSWiOHn_lUHY-u1VYw/videos"} aria-label="Youtube link">
-            <YoutubeIcon className="text-white" />
+  
+          <a rel="noreferrer" target="_blank" href={"https://www.tiktok.com/@avintag3"} aria-label="TikTok link">
+            <TikTokIcon className="text-white" />
           </a>
         </header>
         <main className="py-32">
           <a href="https://v0.dev/" rel="noreferrer" target="_blank">
             <span className="focus:ring-ring mb-4 inline-flex w-fit items-center whitespace-nowrap rounded-full border border-transparent bg-white px-2.5 py-0.5 text-xs font-semibold text-black transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2">
-              Designed with v0
+              Arvrtise Vintage
             </span>
           </a>
-          <p className="text-3xl font-bold">Missing feature? </p>
+          <p className="text-3xl font-bold">Sell your vintage merch </p>
           <p className="mt-1 text-xl">
-            <a className="p-1 underline" href="mailto:contact@blazity.com">
-              Let us know
+            <a className="p-1 underline" href="mailto:vintage@arvrtise.com">
+            Contact us
             </a>
-            , we&apos;ll build it!
+            today to sell it today.
           </p>
         </main>
         <footer className="mt-auto flex flex-col items-center justify-between pb-8 text-neutral-300 md:flex-row">

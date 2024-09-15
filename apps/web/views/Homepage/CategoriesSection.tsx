@@ -14,7 +14,7 @@ export async function CategoriesSection() {
   return (
     <div className="max-w-container-md mx-auto flex w-full flex-col gap-16 px-4 py-20 md:py-32 xl:px-0">
       <div className="basis-1/3 text-center text-5xl font-normal tracking-tighter sm:min-w-[280px] md:text-left md:text-6xl">
-        <h2>Shop by Category</h2>
+        <h2>Shop by Vintage Vibe</h2>
       </div>
       <div className="group mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {categories.map((singleCategory, index) => (
@@ -51,7 +51,7 @@ export function CategoriesSectionSkeleton() {
   return (
     <div className="max-w-container-md mx-auto flex flex-col gap-16 px-4 py-20 md:py-32 xl:px-0">
       <div className="basis-1/3 text-center text-5xl font-normal tracking-tighter sm:min-w-[280px] md:text-left md:text-6xl">
-        <h2>Shop by Category</h2>
+        <h2>Shop by Vintage Vibe</h2>
       </div>
       <div className="group mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {Array.from({ length: 6 }, (_, index) => (
